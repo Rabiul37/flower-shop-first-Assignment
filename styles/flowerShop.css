@@ -48,6 +48,7 @@ font-weight: 400;
 width:310px;
 }
 /* header style end here */
+
 /* service style start form here */
 .service-section{
 width: 1000px;
@@ -169,6 +170,7 @@ width:167px;
 .feature-images p{
     color:#757575;
 }
+
 /* extra style start here */
 .extra-section{
 width:1000px;
@@ -202,7 +204,8 @@ padding:80px 60px;
 }
 .signUp-text{
 color:#757575;
-width:300px;
+width:450px;
+text-align: center;
 }
 .signUp-title{
 font-size: 30px;
@@ -259,13 +262,12 @@ padding-bottom: 50px;
 margin-bottom: 150px;
 }
 .latestDeal-container{
-    /* width:600px; */
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-   color:#757575;
-   text-align: center;
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+color:#757575;
+text-align: center;
 }
 .latestDeal-title{
 font-size: 35px;
