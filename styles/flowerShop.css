@@ -111,6 +111,29 @@ width:180px;
 .feature-images .image3 img{
 width:167px;
 }
+.feature-images p{
+    color:#757575;
+}
+/* extra style start here */
+.extra-section{
+width:1000px;
+height: 200px;
+margin:0 auto;
+background: rgba(39, 39, 39, 0.05);
+margin-bottom: 150px;
+}
+.extra-container{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+padding:30px;
+}
+
+.image p{
+color:#757575;
+}
+
 /* sign up style start form here */
 .signUp-section{
 height: 400px;
@@ -178,6 +201,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: fixed;
 padding-bottom: 50px;
+margin-bottom: 150px;
 }
 .latestDeal-container{
     /* width:600px; */
