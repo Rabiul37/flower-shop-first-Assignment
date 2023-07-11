@@ -113,7 +113,7 @@ width:167px;
 }
 /* sign up style start form here */
 .signUp-section{
-    height: 400px;
+height: 400px;
  background: rgba(229, 84, 115, 0.05);
 }
 .signUp-container{
@@ -200,4 +200,29 @@ input[type="email"]{
     padding:12px 20px;
     border:none;
     outline: none;
+}
+/* footer style start form here */
+footer{
+    height: 400px;
+    background: #111010;
+    position: relative;
+}
+.footer-container{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:#fff;
+text-align: center;
+}
+.footer-title{
+font-size: 30px;
+font-weight: 700;
+}
+.footer-description{
+font-size: 13px;
+font-weight: 400;
+}
+span{
+    color:#ff0000;
 }
