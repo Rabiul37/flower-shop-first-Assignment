@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    background-color: #ff0000;
+    padding:12px 25px;
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn-primary:hover{
+background-color: transparent;
+border:2px solid #ff0000;
+color:#ff0000;
+}
+
+/* header style start form here */
+.banner{
+height:400px;
+background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-container{
+display: flex;
+justify-content: space-around;
+padding:10px;
+}
+.banner-text{
+width:300px;
+color:#757575;
+}
+.banner-title{
+font-size: 30px;
+font-weight: 800;
+}
+.banner-description{
+font-size: 15px;
+font-weight: 400;
+}
+.banner-image img{
+width:310px;
+}
+/* header style end here */
+
+/* feature style start here */
+.feature-section{
+width:1000px;
+margin:150px auto;
+}
+.feature-container{
+
+}
+.feature-text{
+text-align: center;
+color:#757575;
+margin-bottom: 25px;
+width:350px;
+margin:0 auto;
+}
+.feature-title{
+font-size: 30px;
+font-weight: 700;
+}
+.feature-description{
+font-size: 12px;
+font-weight: 400;
+}
+.feature-images{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+}
+.feature-images .image1{
+width:180px;
+height: 230px;
+padding: 20px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.feature-images .image2{
+width:180px;
+height: 230px;
+padding: 20px;
+border-radius: 300px 300px 0px 0px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.feature-images .image3{
+width:180px;
+height: 230px;
+padding: 20px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.feature-images .image1 img{
+width:180px;
+
+}
+.feature-images .image2 img{
+    width:210px;
+    margin-top: 35px;
+   
+}
+.feature-images .image3 img{
+width:167px;
+}
+/* sign up style start form here */
+.signUp-section{
+    height: 400px;
+ background: rgba(229, 84, 115, 0.05);
+}
+.signUp-container{
+display:flex;
+justify-content: space-around;
+align-items: center;
+padding:80px 60px;
+}
+.signUp-text{
+color:#757575;
+width:300px;
+}
+.signUp-title{
+font-size: 30px;
+font-weight: 700;
+}
+.signUp-description{
+font-size: 15px;
+font-weight: 400;
+}
+.signUp-image img{
+width:200px;
+}
+/* instagram style start form here */
+.instagram-section{
+    width:1000px;
+    margin:150px auto;
+ }
+.instagram-container{
+text-align: center;
+}
+.instagram-text{
+    width:480px;
+    text-align: center;
+    color:#757575;
+    margin:0 auto;
+}
+.instagram-title{
+font-size: 30px;
+font-weight: 700;
+}
+.instagram-description{
+font-size: 12px;
+font-weight: 400;
+}
+.instagram-images{
+display: flex;
+justify-content: space-evenly;
+}
+.instagram-images img{
+width:180px;
+
+}
+/* latestDeal style start form here */
+.latestDeal-section{
+width: 1000px;
+height: 200px;
+margin: 0 auto;
+position:relative;
+background-image: url('../Flower Asset/Rectangle\ 9.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: fixed;
+padding-bottom: 50px;
+}
+.latestDeal-container{
+    /* width:600px; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   color:#757575;
+   text-align: center;
+}
+.latestDeal-title{
+font-size: 35px;
+}
+.latestDeal-description{
+font-size: 13px;
+
+}
+input[type="email"]{
+    width:300px;
+    padding:12px 20px;
+    border:none;
+    outline: none;
+}
